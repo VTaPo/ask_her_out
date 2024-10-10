@@ -75,7 +75,7 @@ def show_video_page():
         st.image("https://res.cloudinary.com/vtphong/image/upload/v1728570706/ask%20her%20out/giphy_heart.gif")
     
     with col2:
-        st.video("https://res.cloudinary.com/vtphong/image/upload/v1728571415/ask%20her%20out/giphy_multi_heart.gif")
+        st.image("https://res.cloudinary.com/vtphong/image/upload/v1728571415/ask%20her%20out/giphy_multi_heart.gif")
     
     with col3:
         st.image("https://res.cloudinary.com/vtphong/image/upload/v1728570705/ask%20her%20out/giphy_pink_heart.gif")
