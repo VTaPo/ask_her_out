@@ -80,5 +80,8 @@ def show_video_page():
     with col3:
         st.image("https://res.cloudinary.com/vtphong/image/upload/v1728570705/ask%20her%20out/giphy_pink_heart.gif")
 
+    if st.button("Back", key="back_button", help="Click to accept", use_container_width=False):
+        st.session_state.page = 'invitation'
+
 if __name__ == "__main__":
     main()
