@@ -65,8 +65,6 @@ def show_invitation_page():
     # Yes button
     if st.button("Yes", key="yes_button", help="Click to accept", use_container_width=False):
         st.session_state.page = 'video'
-        st.experimental_set_query_params(page='video')
-        st.experimental_rerun()
     
     st.markdown('</div>', unsafe_allow_html=True)
 
