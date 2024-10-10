@@ -54,7 +54,7 @@ def main():
         show_video_page()
 
 def show_invitation_page():
-    st.markdown('<p class="cute-font">đi chơi với mình ngày mai nhé Thư dễ thương</p>', unsafe_allow_html=True)
+    st.markdown('<p class="cute-font">đi chơi với mình ngày mai nhé, bạn cuti cuti</p>', unsafe_allow_html=True)
     
     # Display the cute gif
     st.image("https://res.cloudinary.com/vtphong/image/upload/v1728570706/ask%20her%20out/giphy_goout.gif", use_column_width=True)
